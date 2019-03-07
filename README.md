@@ -20,7 +20,7 @@ i.e. Start->right-click Computer->Properties->Advanced System Settings->Environm
 
 4) Install Xming: [https://sourceforge.net/projects/xming/])(https://sourceforge.net/projects/xming/)
 
-Then add a new windows PATH variable (same method as #3): Name=DISPLAY, Value=:0
+Then add a new windows Environment variable (similar method as #3 but create a new variable): Name=DISPLAY, Value=:0
 
 Or just remember to set it in your cmd.exe environment before running python:
 
